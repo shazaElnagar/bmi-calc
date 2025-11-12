@@ -180,7 +180,7 @@ class _BMICalculatorScreenState extends State<BMICalculatorScreen> {
             SizedBox(height: 16),
             ElevatedButton(
               onPressed: calculateBMI,
-              child: Text('Check Your BM'),
+              child: Text('Check Your BMI'),
               style: ElevatedButton.styleFrom(
                 backgroundColor: Colors.pink,
                 padding: EdgeInsets.symmetric(vertical: 15.0, horizontal: 80.0),
